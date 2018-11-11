@@ -21,6 +21,36 @@ enum Appearance {
     
     static func setupDarkAppearance(){
         UINavigationBar.appearance().barTintColor = backgroundGray
+        UIBarButtonItem.appearance().tintColor = lambdaRed
+        UISegmentedControl.appearance().tintColor = lambdaRed
+        
+        UILabel.appearance().textColor = .white
+//        UILabel.appearance().shadowColor = .purple
+//        UILabel.appearance().shadowOffset = CGSize.zero
+        
+        // have to you NSattributedString.Key to change the navigation foreground color
+        
+        let attributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+        UINavigationBar.appearance().titleTextAttributes = attributes
+        UINavigationBar.appearance().largeTitleTextAttributes = attributes
+        
+        // this is for the header view
+        UIView.appearance(whenContainedInInstancesOf: [UITableView.self]).backgroundColor = backgroundGray
+        
+      UITableView.appearance().backgroundColor = backgroundGray
+//        UITableViewCell.appearance().layer.borderWidth = 3
+//        UITableViewCell.appearance().layer.borderColor = UIColor.white.cgColor
+//
+        UITableViewCell.appearance().backgroundColor = backgroundGray
+        
+        // Keyboard
+        UITextField.appearance().keyboardAppearance = .dark
+        UITextField.appearance().tintColor = lambdaRed
+        
+        // TextView
+        UITextView.appearance().tintColor = lambdaRed
+        
+        
         
         
     }

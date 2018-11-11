@@ -35,7 +35,7 @@ enum Appearance {
         UINavigationBar.appearance().largeTitleTextAttributes = attributes
         
         // this is for the header view
-        UIView.appearance(whenContainedInInstancesOf: [UITableView.self]).backgroundColor = backgroundGray
+        // UIView.appearance(whenContainedInInstancesOf: [UITableView.self]).backgroundColor = backgroundGray
         
       UITableView.appearance().backgroundColor = backgroundGray
 //        UITableViewCell.appearance().layer.borderWidth = 3
@@ -45,6 +45,7 @@ enum Appearance {
         
         // Keyboard
         UITextField.appearance().keyboardAppearance = .dark
+        
         UITextField.appearance().tintColor = lambdaRed
         
         // TextView

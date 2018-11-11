@@ -14,9 +14,14 @@ class MessageListViewController: UIViewController, UITableViewDelegate, UITableV
         super.viewDidLoad()
         
         styleNewMessageButton()
+        view.backgroundColor = Appearance.backgroundGray
+        
+        // for the segmented control
+        tableView.tableHeaderView?.backgroundColor = Appearance.backgroundGray
         
         tableView.delegate = self
         tableView.dataSource = self
+        
         
         NotificationCenter.default.addObserver(self, selector: #selector(sortMessageArray), name: messagesWereUpdatedNotification, object: nil)
         
@@ -40,6 +45,8 @@ class MessageListViewController: UIViewController, UITableViewDelegate, UITableV
         sortMessageArray()
     }
     
+    // MARK: - Datasource
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return messageController.messages.count
     }
@@ -56,6 +63,9 @@ class MessageListViewController: UIViewController, UITableViewDelegate, UITableV
         
         return cell
     }
+    
+    
+    // MARK: - Custom UI
     
     private func style(cell: UITableViewCell) {
         cell.textLabel?.font = Appearance.applicationFont(pointSize: 15)

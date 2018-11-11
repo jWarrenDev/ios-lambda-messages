@@ -83,7 +83,8 @@ class MessageController {
         
     }
     
-    private let baseURL = URL(string: "https://lambda-message-board.firebaseio.com/messages")!
+    private let baseURL = URL(string: "https://themingapp.firebaseio.com/")!
+    //private let baseURL = URL(string: "https://lambda-message-board.firebaseio.com/messages")!
     
     var messages: [Message] = [] {
         didSet {

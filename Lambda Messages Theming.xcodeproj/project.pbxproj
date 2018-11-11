@@ -19,6 +19,7 @@
 		46A2C10B212B659500E7FF73 /* AuthenticationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C10A212B659500E7FF73 /* AuthenticationHelper.swift */; };
 		46A2C10D212B68B800E7FF73 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C10C212B68B800E7FF73 /* SignupViewController.swift */; };
 		47E613522197C82C005263B2 /* ApperanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E613512197C82C005263B2 /* ApperanceHelper.swift */; };
+		47E613552198596F005263B2 /* attack of the cucumbers.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47E613542198596F005263B2 /* attack of the cucumbers.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		46A2C10A212B659500E7FF73 /* AuthenticationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHelper.swift; sourceTree = "<group>"; };
 		46A2C10C212B68B800E7FF73 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		47E613512197C82C005263B2 /* ApperanceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApperanceHelper.swift; path = "Lambda Messages Theming/Helpers/ApperanceHelper.swift"; sourceTree = SOURCE_ROOT; };
+		47E613542198596F005263B2 /* attack of the cucumbers.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "attack of the cucumbers.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				46A2C0F9212B500200E7FF73 /* Assets.xcassets */,
 				46A2C0FE212B500200E7FF73 /* Info.plist */,
 				46392CFC212D244E00C65AB7 /* rm_typerighter_medium.ttf */,
+				47E613542198596F005263B2 /* attack of the cucumbers.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				46A2C0FD212B500200E7FF73 /* LaunchScreen.storyboard in Resources */,
 				46A2C0FA212B500200E7FF73 /* Assets.xcassets in Resources */,
 				46392CFD212D248800C65AB7 /* rm_typerighter_medium.ttf in Resources */,
+				47E613552198596F005263B2 /* attack of the cucumbers.ttf in Resources */,
 				46A2C0F8212B500000E7FF73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

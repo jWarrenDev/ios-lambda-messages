@@ -23,6 +23,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>rm_typerighter_medium.ttf</string>
+		<string>attack of the cucumbers.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

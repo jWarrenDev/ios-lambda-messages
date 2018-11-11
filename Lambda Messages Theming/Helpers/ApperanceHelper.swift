@@ -50,10 +50,19 @@ enum Appearance {
         // TextView
         UITextView.appearance().tintColor = lambdaRed
         
-        
-        
-        
     }
     
+    // application fonts
+    
+    static func  applicationFont(pointSize: CGFloat) -> UIFont {
+        let result = UIFont(name: "attack of the cucumbers", size: pointSize)!
+        return result
+    }
+    
+   
+    static func applicationStandardFont(pointSize: CGFloat) -> UIFont {
+        let result = UIFont(name: "RM Typerighter medium", size: pointSize)!
+        return result
+    }
     
 }
